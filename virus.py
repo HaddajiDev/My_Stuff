@@ -14,7 +14,7 @@ def placewindows():
         
         win.geometry("300x60+" + str(randint(0, root.winfo_screenwidth() - 300)) + "+" + str(randint(0, root.winfo_screenheight() - 60)))
         win.overrideredirect(1)
-        Label(win, text="You Got Hacked", fg="red").place(relx=0.38, rely=0.3)
+        Label(win, text="You Got  Hacked", fg="red").place(relx=0.38, rely=0.3)
         win.lift()
         win.attributes("-topmost", True)
         win.attributes("-topmost", False)
