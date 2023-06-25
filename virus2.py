@@ -5,5 +5,5 @@ b = True
 while b:
     i += 1
     os.system("start")
-    if(i == 10):
+    if(i == 100):
         b = False
